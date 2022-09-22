@@ -12,7 +12,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
-    "errors": "file:../errors",
+    "errors": "file:errors",
     "evergreen-ui": "^6.10.3",
     "gapi-script": "^1.2.0",
     "material-symbols": "^0.2.10",
@@ -23,7 +23,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-transition-group": "^4.4.5",
-    "validators": "file:../validators",
+    "validators": "file:validators",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
