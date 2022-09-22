@@ -10086,3 +10086,29 @@ INFO 2022-09-22T10:10:11.528Z undefined/C:\workspace\neoland-bootcamp-202207\sta
 INFO 2022-09-22T10:10:12.628Z undefined/C:\workspace\neoland-bootcamp-202207\staff\adrian-ruiz\final-project\api\src\routes\invoices\retrieveIncoicesHandler.js | Company: 632c31d8292231d22104da92 retrieved invoices succesfully
 INFO 2022-09-22T10:10:12.633Z undefined/C:\workspace\neoland-bootcamp-202207\staff\adrian-ruiz\final-project\api\src\routes\invoices\retrieveIncoicesHandler.js | Company: 632c31d8292231d22104da92 retrieved invoices succesfully
 INFO 2022-09-22T13:57:30.255Z undefined/C:\workspace\neoland-bootcamp-202207\staff\adrian-ruiz\final-project\api\src\index.js | DB disconnected
+INFO 2022-09-22T14:44:27.356Z undefined/C:\workspace\ERP\v0\api\src\index.js | Connected to DB: mongodb://localhost:27017/ERP-testing
+INFO 2022-09-22T14:44:45.170Z undefined/C:\workspace\ERP\v0\api\src\index.js | Connected to DB: mongodb://localhost:27017/ERP-testing
+INFO 2022-09-22T14:47:50.491Z undefined/C:\workspace\ERP\v0\api\src\index.js | Connected to DB: mongodb://localhost:27017/ERP-testing
+INFO 2022-09-22T14:48:42.568Z undefined/C:\workspace\ERP\v0\api\src\index.js | Connected to DB: mongodb://localhost:27017/ERP-testing
+INFO 2022-09-22T14:48:42.947Z undefined/C:\workspace\ERP\v0\api\src\index.js | API started and listening port: 8080
+INFO 2022-09-22T14:48:46.329Z undefined/C:\workspace\ERP\v0\api\src\index.js | DB disconnected
+INFO 2022-09-22T14:48:52.399Z undefined/C:\workspace\ERP\v0\api\src\index.js | Connected to DB: mongodb://localhost:27017/ERP-testing
+INFO 2022-09-22T14:48:52.830Z undefined/C:\workspace\ERP\v0\api\src\index.js | API started and listening port: 8080
+INFO 2022-09-22T14:51:23.711Z undefined/C:\workspace\ERP\v0\api\src\routes\users\authenticateGoogleHandler.js | User: 632c31d8292231d22104da94 authenticated succesfully with Google
+INFO 2022-09-22T14:51:26.355Z undefined/C:\workspace\ERP\v0\api\src\routes\customers\retrieveCustomersHandler.js | Company: 632c31d8292231d22104da92 retrieved customers succesfully
+INFO 2022-09-22T14:51:26.362Z undefined/C:\workspace\ERP\v0\api\src\routes\customers\retrieveCustomersHandler.js | Company: 632c31d8292231d22104da92 retrieved customers succesfully
+INFO 2022-09-22T14:51:27.118Z undefined/C:\workspace\ERP\v0\api\src\routes\inventory\retrieveStockHandler.js | Company: 632c31d8292231d22104da92 retrieved stock succesfully
+INFO 2022-09-22T14:51:27.125Z undefined/C:\workspace\ERP\v0\api\src\routes\inventory\retrieveStockHandler.js | Company: 632c31d8292231d22104da92 retrieved stock succesfully
+INFO 2022-09-22T14:51:28.498Z undefined/C:\workspace\ERP\v0\api\src\routes\estimates\retrieveEstimatesHandler.js | Company: 632c31d8292231d22104da92 retrieved estimates succesfully
+INFO 2022-09-22T14:51:28.504Z undefined/C:\workspace\ERP\v0\api\src\routes\estimates\retrieveEstimatesHandler.js | Company: 632c31d8292231d22104da92 retrieved estimates succesfully
+INFO 2022-09-22T14:51:35.731Z undefined/C:\workspace\ERP\v0\api\src\routes\customers\retrieveCustomersHandler.js | Company: 632c31d8292231d22104da92 retrieved customers succesfully
+INFO 2022-09-22T14:51:35.738Z undefined/C:\workspace\ERP\v0\api\src\routes\customers\retrieveCustomersHandler.js | Company: 632c31d8292231d22104da92 retrieved customers succesfully
+INFO 2022-09-22T14:51:36.098Z undefined/C:\workspace\ERP\v0\api\src\routes\estimates\retrieveEstimatesHandler.js | Company: 632c31d8292231d22104da92 retrieved estimates succesfully
+INFO 2022-09-22T14:51:36.106Z undefined/C:\workspace\ERP\v0\api\src\routes\estimates\retrieveEstimatesHandler.js | Company: 632c31d8292231d22104da92 retrieved estimates succesfully
+INFO 2022-09-22T14:51:36.734Z undefined/C:\workspace\ERP\v0\api\src\routes\invoices\retrieveIncoicesHandler.js | Company: 632c31d8292231d22104da92 retrieved invoices succesfully
+INFO 2022-09-22T14:51:36.741Z undefined/C:\workspace\ERP\v0\api\src\routes\invoices\retrieveIncoicesHandler.js | Company: 632c31d8292231d22104da92 retrieved invoices succesfully
+INFO 2022-09-22T14:51:37.711Z undefined/C:\workspace\ERP\v0\api\src\routes\inventory\retrieveStockHandler.js | Company: 632c31d8292231d22104da92 retrieved stock succesfully
+INFO 2022-09-22T14:51:37.717Z undefined/C:\workspace\ERP\v0\api\src\routes\inventory\retrieveStockHandler.js | Company: 632c31d8292231d22104da92 retrieved stock succesfully
+INFO 2022-09-22T14:51:38.000Z undefined/C:\workspace\ERP\v0\api\src\routes\customers\retrieveCustomersHandler.js | Company: 632c31d8292231d22104da92 retrieved customers succesfully
+INFO 2022-09-22T14:51:38.005Z undefined/C:\workspace\ERP\v0\api\src\routes\customers\retrieveCustomersHandler.js | Company: 632c31d8292231d22104da92 retrieved customers succesfully
+INFO 2022-09-22T14:52:06.999Z undefined/C:\workspace\ERP\v0\api\src\index.js | DB disconnected
