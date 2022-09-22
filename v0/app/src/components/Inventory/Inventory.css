@@ -1,0 +1,44 @@
+.main-section__inventory{
+    width: 100%;
+    height: 100%;
+    grid-area: main-section;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 1%;
+}
+
+.inventory__summary{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.inventory__summaryTitle{
+    width: 100%;
+    height: 12%;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 2%;
+}
+
+.inventory__summaryCategories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 88%;
+    background-color: #F2F2F2;
+}
+
+.inventory__products{
+    width: 100%;
+    height: 94%;
+}

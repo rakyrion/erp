@@ -1,0 +1,205 @@
+.invoiceCreator__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.invoiceCreator__form {
+    width: 100%;
+    height: 100%;
+}
+
+.invoiceCreator__customerAndEmail {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.invoiceCreator__inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.invoiceCreator__section2 {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    width: 100%;
+
+}
+
+.invoiceCreator__address {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+}
+
+.invoiceCreator__inputCustomer, .invoiceCreator__inputCustomerEmail{
+    height: 50%;
+    width: 100%;
+}
+
+.invoiceCreator__totalAmount{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+
+.totalAmount__title{
+    text-align: end;
+    font-size: 3.6rem;
+    letter-spacing: 0.3px;
+    color: #42538D;
+}
+
+.totalAmount__amount{
+    text-align: end;
+    font-size: 2.6rem;
+    letter-spacing: 0.3px;
+    color: #677CC7;
+}
+
+.invoiceCreator__invoiceNumber{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 10%;
+}
+
+.separator30{
+    width: 30%;
+}
+
+.invoiceCreator__AddressInput {
+    height: 80%;
+    width: 100%;
+    resize: none;
+    font-size: 1.6rem;
+    font-family: inherit;
+}
+
+.invoiceCreator__section2__row1 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 15%;
+}
+
+.invoiceCreator__productsContainer{
+    width: 100%;
+    height: 65%;
+}
+
+
+.invoiceCreator__productsHeader{
+    width: 97%;
+    height: 8%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.invoiceCreator__productRow{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+[class*='form__invoiceProduct']{
+    height: 35px;
+}
+
+.form__invoiceProductName, .form__invoiceProductDescription{
+    width: 27%;
+    margin-right: 1%;
+}
+
+.form__invoiceProductQty, .form__invoiceProductUnitPrice, .form__invoiceProductTax, .form__invoiceProductTotal{
+    width: 10%;
+    margin-right: 1%;
+}
+
+.w10{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    margin-right: 1%;
+    background-color: #42538D;
+    padding-left: 10px;
+}
+
+.w30{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 27%;
+    margin-right: 1%;
+    background-color: #42538D;
+    padding-left: 10px;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.deleteRow{
+    width: 3%;
+    font-size: 2.2rem;
+    color: rgb(196, 87, 87);
+    cursor: pointer;
+}
+.blue{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #42538D;
+    align-self: flex-end;
+}
+
+.invoiceCreator__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.65%;
+    width: 102%;
+    height: 5%;
+    background-color: #42538D;
+    margin-left: -1%;
+}
+
+.invoiceCreator__newInvoiceButton{
+    height: 100%;
+    width: 10%;
+    background-color: #677CC7;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.invoiceCreator__newInvoiceButton:hover{
+    background-color: #576bb5;
+}
+
+.invoiceCreator__cancelButton{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.invoiceCreator__cancelButton:hover{
+    background-color: rgb(33, 33, 33);
+}

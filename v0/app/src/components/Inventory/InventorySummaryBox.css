@@ -1,0 +1,34 @@
+[class*='inventory__summaryBox']{
+    padding: 1.5% 2.5% 1.5% 2.5%;
+    width: 25%;
+    min-width: fit-content;
+    height: 40%;
+}
+
+.inventory__summaryBox__red{
+    background-color: #E16058;
+}
+
+.inventory__summaryBox__orange{
+    background-color: #ED8E49
+}
+
+.inventory__summaryBox__purple{
+    background-color: #9584FF;
+}
+
+.inventory__summaryBox__green{
+    background-color: #3ED167;
+}
+
+.inventory__summaryBox__blue{
+    background-color: #4AC6E1;
+}
+
+.summaryBox__category{
+    font-size: 2.2rem;
+}
+
+.summaryBox__stock{
+    padding-bottom: 5%;
+}

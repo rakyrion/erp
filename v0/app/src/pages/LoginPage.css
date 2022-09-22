@@ -1,0 +1,116 @@
+.loginPage {
+    display: grid;
+    grid-template-columns: 0.5fr 0.9fr 2.1fr 1fr 0.5fr;
+    grid-template-rows: 0.7fr 1.2fr;
+    gap: 60px 0px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    grid-template-areas:
+        ". . loginForm__container . ."
+        ". carrusel__container carrusel__container carrusel__container .";
+    width: 100%;
+    height: 100%;
+    background-color: #42538D ;
+    padding: 3%;
+}
+
+
+.loginForm__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: loginForm__container;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    min-width: 350px;
+    max-height: 500px;
+    min-height: 350px;
+    background-color: white;
+}
+
+.login__title{
+    padding-top: 3%;
+    font-size: 2rem;
+    height: 20%;
+}
+
+.register__p__italic{
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.form__label{
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+    align-self: flex-start;
+}
+.form__input{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 13%;
+    max-height: 45px;
+    min-height: 20px;
+    margin-bottom: 3%;
+}
+
+.form__button{
+    height: 10%;
+    min-height: 30px;
+    max-height: 50px;
+    width: 40%;
+    border: none;
+    font-size: 1.4rem;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+.form__submit{
+    background-color: #677CC7 ;
+    color: white;
+}
+
+.form__linksContainer{
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+}
+
+[class*='form__link']{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+
+}
+
+[class*='form__link']:visited{
+    color: black;
+}
+
+.form__link__right{
+    float:right;
+}
+
+
+.carrusel__container {
+    width: 100%;
+    max-width: 900px;
+    min-width: 700px;
+    height: 100%;
+    grid-area: carrusel__container;
+    background-color: #42538D;
+}

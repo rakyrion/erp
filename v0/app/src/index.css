@@ -1,0 +1,146 @@
+body, html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+.reactLink{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.transparent{
+  opacity: 0;
+}
+
+.newButton{
+  align-self: flex-end;
+  width: 100px;
+  height: 35px;
+  min-height: 35px;
+  margin-bottom: 1%;
+  min-width: fit-content;
+  background-color: #677CC7;
+  color: white;
+  border: none;
+  transition: 300ms;
+}
+
+.newButton:hover{
+  background-color: #42538D;
+  transform: scale(1.05);
+}
+
+.noButton{
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  height: auto;
+  width: auto;
+  color: inherit;
+}
+
+
+
+.newFormPanel__page{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  background-color: 	rgba(197, 204, 231, 0.5);
+  position: absolute;
+  z-index: 3;
+}
+
+.newFormPanel__container{
+  width: 30%;
+  min-width: 400px;
+  max-width: 700px;
+  height: 100%;
+  background-color: white;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.newFormPanel__container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.newFormPanel__header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top:0px;
+  width: 100%;
+  height: 5%;
+  min-height: 40px;
+  background-color: #42538D;
+  color: white;
+  
+}
+
+.newFormPanel__form{
+  width: 100%;
+  height: 100%;
+}
+.newFormPanel__headerTitle{
+  font-size: 1.8rem;
+  padding: 2%;
+}
+
+.newFormPanel__formContainer{
+  height: 95%;
+  padding: 10% 5% 12% 5%
+}
+
+.newFormPanel__categoryTitle{
+  font-size: 1.8rem;
+}
+
+.newFormPanel__categorySpan{
+  border-bottom: 2px solid #42538D;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.right-corner{
+  
+  position: absolute;
+  right: 2px;
+  top: 2px
+}
+
+.closeX{
+  font-size: 2.2rem;
+  transition: 0.3s;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
+.closeX:hover{
+  font-size: 2.6rem;
+}

@@ -1,0 +1,36 @@
+.registerPage {
+    display: grid;
+    grid-template-columns: 0.7fr 2.2fr 0.7fr;
+    grid-template-rows: 0.2fr 2.5fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    grid-template-areas:
+        ". . ."
+        ". registerForm__container ."
+        ". . .";
+    width: 100%;
+    height: 100%;
+    background-color: #42538D ;
+}
+
+.registerForm__container {
+    grid-area: registerForm__container;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    min-width: 500px;
+    max-width: 800px;
+    height: 100%;
+    
+}
+
+.register__title{
+    padding-top: 3%;
+    font-size: 2rem;
+    height: 10%;
+}
