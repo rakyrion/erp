@@ -24,12 +24,15 @@ const { env: { MONGO_URL, PORT } } = process
         })
 
         api.use('/api', usersRouter, companiesRouter, inventoryRouter, estimatesRouter, customersRouter, invoicesRouter)
-        
-        api.listen(PORT, () => { logger.info(`API started and listening port: ${PORT}`) })
+
+        api.listen(process.env.PORT || PORT, () => { logger.info(`API started and listening port: ${PORT}`) })
 
         process.on('SIGINT', async () => {
             await mongoose.disconnect()
             logger.info('DB disconnected')
             process.exit(0)
         })
+
+        module.exports = api
     })()
+

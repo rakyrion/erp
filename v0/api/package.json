@@ -1,24 +1,24 @@
 {
   "dependencies": {
     "dotenv": "^16.0.2",
-    "errors": "file:../errors",
+    "errors": "file:errors",
     "express": "^4.18.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.5.4",
     "nodemailer": "^6.7.8",
     "pdfkit": "^0.13.0",
-    "validators": "file:../validators",
+    "validators": "file:validators",
     "winston": "^3.8.1"
   },
   "name": "api",
   "version": "1.0.0",
-  "main": "./src/index.js",
+  "main": "./index.js",
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "node ./index.js",
     "test": "npx mocha src/logic/*/*.spec.js",
     "test-inspect": "npx mocha --inspect-brk src/logic/*/*.spec.js",
-    "inspect": "node --inspect-brk ./src/index.js",
-    "populate": "node ./src/populate.js"
+    "inspect": "node --inspect-brk ./index.js",
+    "populate": "node ./populate.js"
   },
   "keywords": [],
   "author": "",
