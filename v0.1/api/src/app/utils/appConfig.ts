@@ -1,0 +1,5 @@
+global.appConfig = {
+	enumerations: {}
+}
+
+export {}
