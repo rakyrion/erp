@@ -1,0 +1,5 @@
+import './plugins/trustProxy'
+import './plugins/cors'
+import './plugins/bodyParser'
+import './plugins/compression'
+import './routes/router'

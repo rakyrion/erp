@@ -1,0 +1,11 @@
+{
+	"core": {
+		"env": "development"
+	},
+	"app": {
+		"port": 3000,
+		"body": {
+			"limit": 10240
+		}
+	}
+}
